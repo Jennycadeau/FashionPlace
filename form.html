@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="headerfooter.css">
+    <title> Sign in </title>
+
+    <style>
+    .t1{
+    width: 500px;
+    height: 200px;
+    }
+
+    .t2{
+    width: 500px;
+    height: 200px;
+    }
+
+    td{
+    color: #7B3F00;
+    font-weight: bold;
+    }
+
+    h2{
+    color: #E0AA3E;
+    }
+
+    input{
+        border: #7B3F00 solid 2px;
+        border-radius: 5px;
+        height: 20px;
+    }
+    
+    select{
+        border: #7B3F00 solid 2px;
+        border-radius: 5px;
+        height: 20px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <center><img src="logo.jpg"></center>
+            <div class="navigation">
+                <h1> FASHION HOUSE </h1>
+                <a href="Home.html"> Home </a>
+                <a href="About.html"> About Us</a>
+                <a href="Products.html"> Our products</a>
+                <a href="Shop.html"> Shop </a>
+
+                <a href="Join.html"> Opportunities </a>
+                <a href="Contact.html"> Contact us</a>
+                <a class="active" href="form.html"> Sign in</a>               
+            </div>
+        </div><br><br><br><br><br>
+
+        <h1> SIGN IN </h1>
+        <h2> Register here </h2>
+        <table class="t1">
+
+        <form method="POST" action="#" name="registration" onsubmit="return dataValidation()">
+        
+ <script src="validation.js"></script>  
+        <tr>
+        <td><label> First Name: </label></td>
+        <td> <input type="text" name="fname" id="fName" required></td>
+        </tr>
+
+        <tr>
+        <td> <label> Last Name: </label></td>
+        <td> <input type="text" name="lname" id="lName" required></td>
+        </tr>
+        
+        <tr>
+        <td> <label> Age: </label></td>
+        <td> <input type="text" name="age" id="age" required></td>
+        </tr>
+        
+        <tr>
+        <td> <label> Gender: </label></td>
+        <td> <input type="text" name="gender" id="gender" required> </td>
+        </tr>
+       
+       <tr>
+       <td> <label> Email: </label></td>
+        <td> <input type="email" name="email" required> </td>
+       </tr><br><br>
+       
+        
+        <tr>
+            <td colspan="2"><h2> Fill out sizes </h2> <p> <i> (Optional) </i></p></td>
+        </tr>
+        
+        <tr>
+        <td><label> Height: </label></td>
+        <td> <input type="number" name="height"> <select> <option>feet</option><option>centimeters</option></select></td>
+        </tr>
+
+        <tr>
+        <td> <label> Chest size: </label></td>
+        <td> <input type="number" name="csize"></td>
+        </tr>
+
+        <tr>
+        <td> <label> Waist size: </label></td>
+        <td> <input type="number" name="wsize"></td>
+        </tr>
+
+        <tr>
+        <td> <label> Wrist size: </label></td>
+        <td> <input type="number" name="wrsize"></td>
+        </tr>
+
+        </table>
+        
+        <center><input type="submit" name="submit" value="Submit" style="background-color: #7B3F00; color:wheat; width: 100px; height: 30px;"></center>
+
+        </form>
+        
+       
+
+
+
+        <div class="footer">
+        <div class="lists">
+        <ul class="list1">
+            <li> <a href="Contact.html"> Contact us </a> </li>
+            <li><a href="Shop.html"> Shop </a></li>
+            <li> <a href="Join.html"> Join us </a></li>
+        </ul>
+
+        <ul class="list2">
+            <li><a href="About.html"> About us </a></li>
+            <li> <a href="Products.html"> Our products </a></li>
+            <li><a href="form.html"> Sign up </a></li>
+        </ul>
+        </div><br>
+<center>
+<div class="social">
+    <a href="instagram.com"><img src="instagram.jpg" width="15px" height="15px"></a>
+    <a href="facebook.com"><img src="facebook.png" width="15px" height="15px"></a>
+   <a href="twitter.com"><img src="twitter.png" width="15px" height="15px"></a>
+</div>
+</center>
+
+
+
+<p> This website is protected by copyright. Any sorts of imitation is a violation </p>
+        </div>
+
+</body>
+</html>
